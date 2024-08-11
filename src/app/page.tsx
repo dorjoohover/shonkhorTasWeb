@@ -43,10 +43,10 @@ export default function Home() {
                 <td className="p-4 text-center">{d["service"]["text"]}</td>
                 <td className="p-4 text-center">{d["createdAt"]}</td>
                 <td className="p-4 text-center">
-                  <div className="bg-green-500 p-2 rounded-md">Нэмэх</div>
+                  <div className="bg-green-500 p-2 rounded-md text-white">Баталгаажуулах</div>
                 </td>
                 <td className="p-4 text-center">
-                  <div className="bg-red-500 p-2 rounded-md">Болих</div>
+                  <div className="bg-red-500 p-2 rounded-md text-white">Цуцлах</div>
                 </td>
               </tr>
             );
